@@ -1,0 +1,31 @@
+video link : https://www.youtube.com/watch?v=B8NurikxEo8
+
+ git config --global user.email "rajimuraleedhar@gmail.com"
+
+ git config --global user.email
+
+git config --global user.name "rahimuraleedhar@gmail.com"
+
+git init - to create folder ".git" in your folder
+
+git status
+
+git add filename.txt / git add *.txt /git add .
+
+ git commit -m "added one txt file" (commit my changes with message)
+
+now my repository in git(url is not updated/reflected) so,type in bash (terminal)
+git remote add origin https://github.com/RajiVittal/projects.git
+
+to show commit history.
+git log
+
+to show all git commands
+git --help/ git help
+
+to see it ,
+git remote show origin
+
+to push contents to git repository on browser,
+ git push -u origin master
+
