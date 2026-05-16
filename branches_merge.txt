@@ -36,6 +36,10 @@ git merge branchname
 Now push changes, (to synch with original branch) 
 git push -u origin master
 
+delete branch
+git branch -d branchname -it will delete only from local
+git push origin --delete branchname
+
 
 
 
