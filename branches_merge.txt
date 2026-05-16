@@ -1,0 +1,19 @@
+git branch branchname- to create a new branch
+
+git branch -to see all branches created
+
+git checkout branchname 
+- to checkout branch, i.e branch will switch to new branch from current(master), hence any changes will now onwards move to new branch only
+
+To verify this,
+create a new file in project folder and type 
+
+git status -you find no change
+
+but, if you type , you will find it in new branch
+
+git add file2.txt and git status
+
+Now type, commit to do it on git
+git commit -m "added new file2"
+
