@@ -17,3 +17,26 @@ git add file2.txt and git status
 Now type, commit to do it on git
 git commit -m "added new file2"
 
+
+finally,
+git push -u origin branchname
+ (check the branch is visible on GitHub repository)
+
+next,
+on local checkout master branch
+
+git checkout master
+
+(now you will not find newly created file(which is part of nb branch in project(master) folder)
+
+Hence, Merge new branch in master branch 
+
+git merge branchname 
+
+Now push changes, (to synch with original branch) 
+git push -u origin master
+
+
+
+
+
